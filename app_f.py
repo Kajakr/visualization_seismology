@@ -77,7 +77,7 @@ main_barchart.update_layout(
             color = 'black',
             family = 'Arial, sans-serif'),
         xanchor = 'right',
-        x = 0.7),
+        x = 0.67),
     xaxis_title = "Year",
     yaxis_title = "Amount",
     xaxis_type = "category",
@@ -286,5 +286,6 @@ else:
             font = dict(size = 20),
             x = 0.45,  
             xanchor = 'center'))
+
 
     st.plotly_chart(fig_pie, width = "stretch")
