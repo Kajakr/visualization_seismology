@@ -76,7 +76,7 @@ main_barchart.update_layout(
         font = dict(size = 20,
             color = 'black',
             family = 'Arial, sans-serif'),
-        xanchor = 'right',
+        #xanchor = 'right',
        # x = 0.8
     ),
     xaxis_title = "Year",
@@ -290,6 +290,7 @@ else:
 
 
     st.plotly_chart(fig_pie, width = "stretch")
+
 
 
 
